@@ -23,15 +23,20 @@ wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     @Test
     public void testOpenGoogle(){
 wd.get("https://www.google.com/");
-wd.findElement(By.className("gb_D")).click();
-wd.findElement(By.className("gb_D")).click();
+        Click(By.className("gb_D"));
+        Click(By.className("gb_D"));
     }
+
+    private void Click(By gb_d) {
+        wd.findElement(gb_d).click();
+    }
+
     public void testSearchGoogle(){
         wd.get("https://www.google.com/");
-        wd.findElement(By.name("q")).click();
-        wd.findElement(By.name("q")).clear();
-        wd.findElement(By.name("q")).sendKeys("Java");
-        
+        Click(By.name("q"));
+        wd.findElement(By.className("gLFyf")).clear();
+        wd.findElement(By.className("gLFyf")).sendKeys("Java");
+
     }
 @AfterMethod
     public void tearDown(){

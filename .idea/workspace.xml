@@ -45,6 +45,7 @@
   </component>
   <component name="ProjectId" id="1ZhbrlJTXYr3tpfrd7A9Bs4XpZK" />
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenGoogleTest">
+  <component name="RunManager" selected="TestNG.OpenGoogleTest.testOpenGoogle">
     <configuration name="OpenGoogleTest.testOpenGoogle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OpenGoogleTest" />
         <item itemvalue="TestNG.OpenGoogleTest.testOpenGoogle" />
+        <item itemvalue="TestNG.OpenGoogleTest" />
         <item itemvalue="Gradle.OpenGoogleTest.testOpenGoogle" />
       </list>
     </recent_temporary>
