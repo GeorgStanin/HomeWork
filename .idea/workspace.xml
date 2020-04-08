@@ -75,13 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginJira">
-    <configuration name="OpenGoogleTest.testOpenGoogle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BoardCreationTests.testBoardCreation">
+    <configuration name="BoardCreationTests.testBoardCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../trello_web_tests" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.telran.qa.tests.OpenGoogleTest.testOpenGoogle&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.qa.trello.BoardCreationTests.testBoardCreation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BoardCreationTests.testBoardCreation" />
         <item itemvalue="TestNG.LoginJira" />
         <item itemvalue="TestNG.LoginJira.loginJira" />
         <item itemvalue="TestNG.OpenGoogleTest.testOpenGoogle" />
         <item itemvalue="TestNG.OpenGoogleTest" />
-        <item itemvalue="Gradle.OpenGoogleTest.testOpenGoogle" />
       </list>
     </recent_temporary>
   </component>
